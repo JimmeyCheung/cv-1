@@ -68,5 +68,5 @@ function loadContent() {
     index++;
     setTimeout(() => {
         loadContent();
-    }, 1);
+    }, 50);
 }
